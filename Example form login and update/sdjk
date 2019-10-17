@@ -1,0 +1,37 @@
+<View style={{ flex: 0.3, flexdirection: "row", justifyContent: 'flex-end' }}>
+                                    <Button title="edit"
+                                        onPress={() => this.onPressEdit()}
+                                        style={{ MarginEnd: 20 }}
+                                    />
+                                    <Button title="delete"
+                                        onPressDelete={() => this.onPressDelete()}
+                                        style={{ MarginEnd: 20 }} />
+                                </View>
+
+
+                                 <View style={{flexDirection:"row"}}>
+                                    <Text style={{ fontSize: 25, color: 'black',flex:0.4}}>Password</Text>
+                                    <Text style={{ fontSize: 25, color: 'black',flex:0.6 }}>{item.password}</Text>
+                                </View>
+
+
+
+                                <View style={{flexDirection:"row"}}>
+                                
+                                <View style={{flexDirection:"row"}}>
+                                    <Text style={{ fontSize: 25, color: 'black' ,width:"30%" }}>Name</Text>
+                                    <Text style={{ fontSize: 25, color: 'black', width:"50%" }}>{item.name}</Text>
+                                </View>
+
+                                <View style={{flexDirection:"row"}}>
+                                    <Text style={{ fontSize: 25, color: 'black',flex:0.4}}>Password</Text>
+                                    <Text style={{ fontSize: 25, color: 'black',flex:0.6 }}>{item.password}</Text>
+                                </View>
+                                 </View>
+                                 <Button title="edit"
+                                            onPress={() => this.onPressEdit()}
+                                            style={{ MarginEnd: 20 }}/>
+
+                                    <Button title="delete"
+                                            onPressDelete={() => this.onPressDelete()}
+                                            style={{ MarginEnd: 20 }} />

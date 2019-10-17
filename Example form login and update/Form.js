@@ -13,8 +13,8 @@ export default class Form extends React.Component {
     constructor(){
         super()
         this.state = {
-            name: "rohan",
-            password: "rg#2710",
+            name: '',
+            password: '',
             empRecord: []
         }
     }
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
         margin:10, 
         backgroundColor:'gray', 
         borderRadius: 62.5, 
-        paddingStart: 20,
-        paddingEnd: 20
+        paddingStart: 30,
+        paddingEnd: 30
     }
 });
